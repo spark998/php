@@ -1,8 +1,8 @@
 <?php
 const SERVER = "localhost";
-const DB = "gallery";
+const DB = "shop";
 const LOGIN = "root";
-const PASSWORD = "";	
+const PASSWORD = "";
 
 $connect = mysqli_connect(SERVER, LOGIN, PASSWORD, DB) or 
-	die("Ошибка соединения с БД");
+		die("Ошибка соединения с БД");
