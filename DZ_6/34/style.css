@@ -1,0 +1,152 @@
+body {
+	background-color: #f3eeee;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+	text-align: center;
+}
+
+.container {
+	background-color: #f5f5f5;
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.product {
+	width: 900px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 16px 20px 12px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+	border: solid 1px transparent;
+	margin-bottom: 10px;
+}
+
+.product-info {
+	width: 530px;
+}
+
+.product-link {
+	display: block;
+	max-width: 130px;
+	max-height: 130px;
+}
+
+.img-product {
+	height: 120px;
+}
+
+.product-id {
+	text-align: center;
+	display: block;
+	font-size: 13px;
+	color: rgb(148, 146, 146);
+}
+
+.title-product {
+	height: 50px;
+	font-size: 18px;
+}
+
+.ui-link {
+	transition-duration: .3s;
+	transition-property: color;
+	text-decoration: none;
+	color: #333;
+}
+
+.ui-link:hover {
+	color: rgb(156, 138, 138);
+}
+
+.description {
+	font-size: 14px;
+	height: 38px;
+	color: #4e4e4e;
+	margin-top: 8px;
+}
+
+
+
+.img-box_card {
+	width: 460px;
+	max-height: 460px;
+}
+
+.img-product_card {
+	height: 460px;
+}
+
+.flex-wrap {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+	border: solid 1px transparent;
+	padding: 20px 0;
+}
+
+.product-price_card {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 15px;
+}
+
+.btn {
+	display: block;
+	box-sizing: border-box;
+	padding: 12px;
+	text-decoration: none;
+	text-align: center;
+	width: 160px;
+	height: 50px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #ff7403;
+	border-color: #e66800;
+	font-weight: normal;
+	border: none;
+	font-size: 18px;
+	line-height: 1.33333;
+	border-radius: 6px;
+	color: #fff;
+	border: solid 2px;
+}
+
+.btn:hover {
+	background-color: #fff;
+	color: #ff7403;
+}
+
+.product-info_card {
+	width: 1240px;
+	box-sizing: border-box;
+	background-color: #fff;
+	border-radius: 8px;
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+	border: solid 1px transparent;
+	padding: 20px 20px;
+	margin-top: 15px;
+}
+
+.product-id_card {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.comment {
+	text-decoration: none;
+	font-size: 17px;
+	font-weight: 600;
+	color: rgb(58, 53, 10);
+}
+.comment:hover{
+	color: rgb(51, 26, 75);
+}
